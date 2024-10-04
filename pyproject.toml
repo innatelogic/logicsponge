@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "datasponge"
+dynamic = ["version"]
+requires-python = ">=3.11"
+authors = [
+  { name = "Benedikt Bollig", email = "bollig@lmf.cnrs.fr" },
+  { name = "Matthias Függer", email = "mfuegger@lmf.cnrs.fr" },
+  { name = "Thomas Nowak", email = "thomas@thomasnowak.net" },
+]
+maintainers = [
+  { name = "Benedikt Bollig", email = "bollig@lmf.cnrs.fr" },
+  { name = "Matthias Függer", email = "mfuegger@lmf.cnrs.fr" },
+  { name = "Thomas Nowak", email = "thomas@thomasnowak.net" },
+]
+description = "A real-time data processing pipeline"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["real-time", "data processing", "time series"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+]
+dependencies = [
+  "datasponge-core @ git+https://github.com/innatelogic/datasponge-core.git@main",
+]
+
+[project.urls]
+Repository = "https://github.com/innatelogic/datasponge.git"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["datasponge"]
