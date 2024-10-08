@@ -25,7 +25,7 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
 ]
-dependencies = ["datasponge-core"]
+dependencies = ["logicsponge-core"]
 
 [project.urls]
 Repository = "https://github.com/innatelogic/logicsponge.git"
