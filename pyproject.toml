@@ -3,7 +3,7 @@ requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = "datasponge"
+name = "logicsponge"
 dynamic = ["version"]
 requires-python = ">=3.11"
 authors = [
@@ -25,11 +25,11 @@ classifiers = [
   "Programming Language :: Python",
 ]
 dependencies = [
-  "datasponge-core @ git+https://github.com/innatelogic/datasponge-core.git@main",
+  "logicsponge-core @ git+https://github.com/innatelogic/logicsponge-core.git@main",
 ]
 
 [project.urls]
-Repository = "https://github.com/innatelogic/datasponge.git"
+Repository = "https://github.com/innatelogic/logicsponge.git"
 
 [tool.hatch.version]
 source = "vcs"
@@ -38,4 +38,4 @@ source = "vcs"
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["datasponge"]
+packages = ["logicsponge"]
