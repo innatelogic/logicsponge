@@ -16,7 +16,7 @@ Check out our repositories:
 https://github.com/innatelogic/logicsponge-core/  
   
 
-- Monitoring streaming data with respect to real-time properties:  
+- Monitoring Real-Time Patterns in Streaming Data:  
 https://github.com/innatelogic/logicsponge-monitoring  
   
 
@@ -25,7 +25,7 @@ https://github.com/innatelogic/logicsponge-examples
 
 Coming soon:
 
-- Integrated bioprocess monitoring and anomaly detection
+- Integrated bioprocess monitoring and anomaly detection.
 
 - Tools for process mining and event-log analysis and prediction.
 
