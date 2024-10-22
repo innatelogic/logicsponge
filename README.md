@@ -103,6 +103,8 @@ additional information such as a timestamp. Note that, as it possibly runs forev
 statement. However, using ```self.output```, you can add data items to the output stream at your discretion,
 allowing them to be processed by subsequent terms.
 
+### Function term ```World```
+
 `World` overwrites the `f` method of its superclass `FunctionTerm`:
 ```python
 class World(ls.FunctionTerm):
