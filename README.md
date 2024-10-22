@@ -1,4 +1,35 @@
-# logicsponge
+<img src="media/logicsponge.png" alt="LogicSponge Logo" width="350">
+
+logicsponge is a Python framework to compute with data streams. Examples are monitoring, modeling, and prediction of real-time data.
+
+# Key features
+
+- A Python-integrated language
+- Easy-to-build custom pipelines, reuse of components
+- Live dashboards
+- Upcoming: Simple to deploy without the need to setup extra infrastructure, frameworks, or databases
+
+# Code base
+Check out our repositories:
+
+- The main codebase, containing the core infrastructure for building streaming data pipelines:  
+https://github.com/innatelogic/logicsponge-core/  
+  
+
+- Monitoring streaming data with respect to real-time properties:  
+https://github.com/innatelogic/logicsponge-monitoring  
+  
+
+- A collection of example pipelines to help you get started:  
+https://github.com/innatelogic/logicsponge-examples  
+
+Coming soon:
+
+- Integrated bioprocess monitoring and anomaly detection
+
+- Tools for process mining and event-log analysis and prediction.
+
+# Getting started
 
 To get started with **logicsponge**, you can simply install it using **pip**:
 
