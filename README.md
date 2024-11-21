@@ -1,6 +1,6 @@
 <img src="media/logicsponge.png" alt="LogicSponge Logo" width="350">
 
-logicsponge is a Python framework to compute with data streams. Examples are monitoring, modeling, and prediction of real-time data.
+logicsponge is a Python framework designed for computing with data streams, including monitoring, modeling, and predicting real-time data.
 
 # Key features
 
