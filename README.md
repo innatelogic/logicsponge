@@ -24,10 +24,6 @@ https://github.com/innatelogic/logicsponge-monitoring
 - A collection of example pipelines to help you get started:  
 https://github.com/innatelogic/logicsponge-examples  
 
-Coming soon:
-
-- Tools for process mining and event-log analysis and prediction.
-
 # Getting started
 
 To get started with **logicsponge**, you can simply install it using **pip**:
